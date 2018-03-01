@@ -126,8 +126,8 @@ namespace TechJobsConsole
             {
                 foreach (Dictionary<string, string> jobs in someJobs)
                 {
-                  Console.WriteLine("");
-
+                 Console.WriteLine("");
+                  
                     foreach (KeyValuePair<string, string> job in jobs)
                     {
                         Console.WriteLine("{0}:{1}", job.Key, job.Value);

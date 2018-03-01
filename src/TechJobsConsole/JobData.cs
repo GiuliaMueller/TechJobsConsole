@@ -71,7 +71,7 @@ namespace TechJobsConsole
                     if (job[key].ToUpper().Contains(searchData.ToUpper()))
                     {
                         jobs.Add(job);
-                        break;
+                       
                     }
                 }
             }
